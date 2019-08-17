@@ -1,0 +1,56 @@
+iframe{
+
+width: 100%;
+height: 500px;
+}
+
+.Main-div{  
+
+font-family: Helvetica, Arial, sans-serif;
+display: grid;
+grid-template-columns:  1fr 1fr ;
+grid-gap: 20px;
+margin: 0 0 0 23%;
+}
+
+input{
+
+margin: 1% 0 15px 26%;
+padding: 8px;
+width:50%;
+border-radius: 15px;
+font-size: 18px;
+}
+
+.video-snippet-description{
+
+font-size: 18px;
+
+}
+
+.listOfVideos{
+
+font-size: 20px; 
+width: 60%;
+}
+
+.VideoItem{
+
+display: grid;
+grid-template-columns: 320px 250px;
+grid-gap: 5px;  
+}
+
+.videoSelected{
+
+cursor: pointer ;
+margin:0 0 10px 0;
+
+}
+
+.Logo{
+    
+margin: -3.5% 0 -5% 40%;
+width:20%;
+
+}
